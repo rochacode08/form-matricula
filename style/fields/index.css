@@ -1,3 +1,5 @@
+@import url(droparea.css);
+
 input, textarea, select {
   appearance: none;
   border: 1px solid var(--stroke-default);
@@ -17,7 +19,8 @@ label {
 
 input:focus,
 textarea:focus,
-select:focus {
+select:focus,
+input[type="date"]:focus-within {
   outline: .25rem solid var(--surface-color);
   outline-offset: .1px;
   border: .125rem solid var(--stroke-highlight);
