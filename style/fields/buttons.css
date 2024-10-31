@@ -13,6 +13,8 @@ button {
     &:hover,
     &:focus {
       background-color: #F3541C;
+      color: white;
+
     }
   }
 
