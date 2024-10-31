@@ -15,7 +15,7 @@ legend {
   margin-bottom: 1.5rem;
 }
 
-fieldset + fieldset {
+fieldset + fieldset, fieldset.child-info {
   margin-top: 3rem;
 }
 
