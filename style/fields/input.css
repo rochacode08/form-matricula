@@ -93,3 +93,8 @@ input {
     display: none;
   }
 }
+
+input[type="file"], input[type="radio"], input[type="checkbox"], .checkbox-wrapper label, .dropzone, .radio-inner   {
+  cursor: pointer;
+}
+
